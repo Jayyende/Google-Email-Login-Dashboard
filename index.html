@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Google Login</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Google Email Login</h1>
+
+<p>Sign in using your Google Account</p>
+
+<div
+id="g_id_onload"
+data-client_id="446937859883-47i03ua32gb6t1jnp835vrcr4c4k5h6d.apps.googleusercontent.com"
+data-callback="handleCredentialResponse">
+</div>
+
+<div
+class="g_id_signin"
+data-type="standard"
+data-theme="filled_blue"
+data-size="large">
+</div>
+
+<div id="profile"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
