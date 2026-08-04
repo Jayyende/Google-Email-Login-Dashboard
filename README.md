@@ -2,81 +2,92 @@
 
 # 🔐 Google Email Login Dashboard
 
-### A Modern Google Authentication Dashboard built with HTML, CSS, JavaScript & Google Identity Services API
+### A Modern Google Authentication Dashboard built using HTML, CSS, JavaScript & Google Identity Services API
+
+<p align="center">
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-<img src="https://img.shields.io/badge/Google%20Identity-4285F4?style=for-the-badge&logo=google&logoColor=white">
+
+<img src="https://img.shields.io/badge/Google%20Identity%20Services-4285F4?style=for-the-badge&logo=google&logoColor=white">
+
+<img src="https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge">
+
+</p>
 
 ---
 
-A responsive Google Login web application that authenticates users using **Google Identity Services API** and displays a personalized dashboard with profile details after successful login.
+A modern and responsive **Google Email Login Dashboard** developed using **HTML5, CSS3, JavaScript (ES6)** and **Google Identity Services API**.
+
+The application allows users to securely sign in with their Google account and displays a personalized dashboard containing their profile information, authentication details, login timestamp, and account status.
 
 </div>
 
 ---
 
-# ✨ Features
+# 🚀 Features
 
-- 🔑 Google Sign-In Authentication
+- 🔑 Secure Google Sign-In Authentication
 - 👤 Personalized User Dashboard
-- 🖼️ Profile Picture Display
+- 📷 Google Profile Picture
 - 👋 Dynamic Greeting (Morning / Afternoon / Evening)
-- 📧 Google Email Information
-- 🆔 Google User ID Display
+- 📧 Email Display
+- 🆔 Google User ID
 - ✔ Email Verification Status
-- 📅 Login Timestamp
-- 🌍 Account Status Card
+- 📅 Current Login Time
+- 🌍 Account Status
 - 🚪 Logout Functionality
-- 📱 Fully Responsive Design
-- 🎨 Modern UI with CSS Animations
-- 🖥️ Console Logging using `console.log()` and `console.table()`
+- 🎨 Modern Responsive UI
+- 📱 Mobile Friendly Design
+- 💻 Console Logging using `console.log()` and `console.table()`
+- ⚡ Fast and Lightweight
 
 ---
 
 # 📸 Project Screenshots
 
-> Upload your screenshots inside:
+## 🟢 Login Screen
 
-```
-assets/
-└── screenshots/
-```
-
-## 🔹 Login Page
-
-![Login Page](assets/screenshots/login-page.png)
+![Login](assets/screenshots/Login_Page.png)
 
 ---
 
-## 🔹 Dashboard
+## 🟢 User Dashboard
 
-![Dashboard](assets/screenshots/dashboard.png)
-
----
-
-## 🔹 Browser Console
-
-![Console](assets/screenshots/console.png)
+![Dashboard](assets/screenshots/Login_Page_Dashboard(1).png)
 
 ---
 
-## 🔹 VS Code Project
+## 🟢 Dashboard (After Login)
 
-![VS Code](assets/screenshots/vscode.png)
+![Dashboard](assets/screenshots/Login_Page_Dashboard(2).png)
 
 ---
 
-# 🛠️ Technologies Used
+## 🟢 Browser Console
+
+![Console](assets/screenshots/Console.png)
+
+---
+
+## 🟢 VS Code Project
+
+![VS Code](assets/screenshots/VSCODE.png)
+
+---
+
+# 🛠 Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
-| HTML5 | Structure |
-| CSS3 | Styling |
-| JavaScript (ES6) | Logic |
-| Google Identity Services API | Authentication |
-| Google OAuth 2.0 | Secure Login |
+| HTML5 | Webpage Structure |
+| CSS3 | Styling & Responsive Design |
+| JavaScript (ES6) | Application Logic |
+| Google Identity Services API | Google Authentication |
+| Google OAuth 2.0 | Secure User Login |
 
 ---
 
@@ -87,10 +98,11 @@ Google-Email-Login-Dashboard
 │
 ├── assets
 │   └── screenshots
-│       ├── login-page.png
-│       ├── dashboard.png
-│       ├── console.png
-│       └── vscode.png
+│       ├── Console.png
+│       ├── Login_Page.png
+│       ├── Login_Page_Dashboard(1).png
+│       ├── Login_Page_Dashboard(2).png
+│       └── VSCODE.png
 │
 ├── index.html
 ├── style.css
@@ -101,42 +113,43 @@ Google-Email-Login-Dashboard
 
 ---
 
-# 🚀 How to Run
+# ⚙️ Installation
 
-### 1. Clone or Download
+### Step 1
+
+Download or Clone this repository.
 
 ```
-git clone https://github.com/YOUR_USERNAME/Google-Email-Login-Dashboard.git
+git clone https://github.com/YOUR_GITHUB_USERNAME/Google-Email-Login-Dashboard.git
 ```
 
-or download the ZIP file.
+---
+
+### Step 2
+
+Open the project using **Visual Studio Code**.
 
 ---
 
-### 2. Open in Visual Studio Code
+### Step 3
 
-Open the project folder.
-
----
-
-### 3. Install Live Server Extension
-
-Install **Live Server** from the VS Code Extensions Marketplace.
+Install the **Live Server** extension.
 
 ---
 
-### 4. Configure Google OAuth
+### Step 4
 
-- Create a project in Google Cloud Console.
-- Enable Google Identity Services.
-- Create an OAuth Client ID.
-- Replace the Client ID in `index.html`.
+Create a Google Cloud project.
+
+- Configure Google Identity Services
+- Create OAuth Client ID
+- Replace your Client ID in **index.html**
 
 ---
 
-### 5. Run
+### Step 5
 
-Open
+Run
 
 ```
 index.html
@@ -146,7 +159,7 @@ using **Live Server**.
 
 ---
 
-### 6. Login
+### Step 6
 
 Click
 
@@ -154,77 +167,82 @@ Click
 Sign in with Google
 ```
 
-and enjoy the dashboard.
+to access the dashboard.
 
 ---
 
-# 💡 Concepts Used
+# 📚 Concepts Implemented
 
-- HTML Forms
-- CSS Flexbox
-- CSS Animations
-- Responsive Design
-- JavaScript Functions
+- Google Authentication
+- Google Identity Services API
+- OAuth 2.0
+- JWT Token Parsing
 - DOM Manipulation
 - Event Handling
-- JWT Token Parsing
-- Google OAuth Authentication
-- Console Methods
+- JavaScript Functions
 - Template Literals
+- CSS Flexbox
+- CSS Animations
+- Responsive Web Design
 
 ---
 
-# 📖 Learning Outcomes
+# 🎯 Learning Outcomes
 
-This project helped in understanding:
+This project demonstrates practical implementation of:
 
-- Google OAuth Login
-- Google Identity Services API
-- JWT Token Decoding
-- Dynamic DOM Manipulation
-- Modern UI Design
-- JavaScript Event Handling
-- Authentication Workflow
-- Responsive Web Development
+- Secure Google Login
+- Third-Party Authentication
+- JavaScript DOM Manipulation
+- Dynamic Dashboard Creation
+- Responsive UI Design
+- API Integration
+- User Authentication Workflow
+- Modern Frontend Development
 
 ---
 
-# 🔮 Future Improvements
+# 🔮 Future Enhancements
 
 - 🌙 Dark Mode
-- 📊 Analytics Dashboard
+- 📊 Dashboard Analytics
 - 🔔 Notifications
-- 🌤️ Weather Widget
+- 🌤 Weather Widget
 - 📝 Notes Application
-- 📅 Calendar Integration
-- 🔒 Session Storage
-- 🔥 Firebase Authentication
-- ☁ Cloud Database Integration
+- ☁ Firebase Authentication
+- 💾 Database Integration
+- 👥 Multiple User Support
+- 📱 Progressive Web App (PWA)
 
 ---
 
 # 👨‍💻 Author
 
-**Jay Yende**
+## Jay Yende
 
-🎓 B.Tech Computer Science Engineering
+**B.Tech Computer Science Engineering**
 
-🏫 Symbiosis Institute of Technology, Nagpur
+**Symbiosis Institute of Technology, Nagpur**
+
+GitHub Profile:
+https://github.com/Jayyende
 
 ---
 
 # ⭐ Support
 
-If you found this project useful or interesting, consider giving it a **⭐ Star** on GitHub.
+If you found this project useful,
 
-It helps support the project and motivates future improvements.
+please consider giving it a **⭐ Star** on GitHub.
+
+It motivates me to build more projects.
 
 ---
 
 <div align="center">
 
-### Thank you for visiting this repository! ❤️
+## Thank You ❤️
 
-Made with HTML • CSS • JavaScript • Google Identity Services
+Made with HTML • CSS • JavaScript • Google Identity Services API
 
 </div>
