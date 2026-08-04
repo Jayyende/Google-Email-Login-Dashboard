@@ -1,0 +1,231 @@
+/* ==========================================
+   Google Login Dashboard
+   JavaScript Lab Task
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#74b9ff,#a29bfe);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+/* Main Container */
+
+.container{
+
+    width:500px;
+    background:#ffffff;
+    padding:35px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 12px 30px rgba(0,0,0,0.25);
+
+}
+
+.container h1{
+
+    color:#0d6efd;
+    margin-bottom:12px;
+    font-size:34px;
+
+}
+
+.container p{
+
+    color:#555;
+    margin-bottom:20px;
+    font-size:16px;
+
+}
+
+/* Google Button */
+
+.g_id_signin{
+
+    display:flex;
+    justify-content:center;
+    margin:20px 0;
+
+}
+
+/* Dashboard */
+
+.dashboard{
+
+    margin-top:20px;
+    animation:fadeIn 0.6s ease;
+
+}
+
+/* Profile Image */
+
+.profile-img{
+
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #0d6efd;
+    margin-bottom:15px;
+
+}
+
+/* Dashboard Heading */
+
+.dashboard h2{
+
+    color:#0d6efd;
+    margin-bottom:15px;
+    font-size:28px;
+
+}
+
+/* User Name */
+
+.dashboard h3{
+
+    color:#222;
+    margin-bottom:8px;
+    font-size:24px;
+
+}
+
+/* Student Role */
+
+.role{
+
+    color:#666;
+    font-size:16px;
+    margin-bottom:10px;
+
+}
+
+/* Verified Badge */
+
+.verified{
+
+    color:green;
+    font-weight:bold;
+    margin-bottom:20px;
+    font-size:16px;
+
+}
+
+/* Information Cards */
+
+.card{
+
+    background:#f8f9fa;
+    padding:15px;
+    margin:12px 0;
+    border-radius:10px;
+    text-align:left;
+    box-shadow:0 3px 8px rgba(0,0,0,0.15);
+    transition:0.3s;
+
+}
+
+.card:hover{
+
+    transform:scale(1.02);
+
+}
+
+.card p{
+
+    margin:6px 0;
+    color:#333;
+    word-break:break-word;
+
+}
+
+/* Logout Button */
+
+.logout-btn{
+
+    width:100%;
+    margin-top:20px;
+    padding:12px;
+    background:#0d6efd;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s;
+
+}
+
+.logout-btn:hover{
+
+    background:#084298;
+
+}
+
+/* Animation */
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
+
+}
+
+/* Responsive */
+
+@media(max-width:600px){
+
+    .container{
+
+        width:95%;
+        padding:25px;
+
+    }
+
+    .container h1{
+
+        font-size:28px;
+
+    }
+
+    .dashboard h2{
+
+        font-size:24px;
+
+    }
+
+    .dashboard h3{
+
+        font-size:20px;
+
+    }
+
+    .profile-img{
+
+        width:110px;
+        height:110px;
+
+    }
+
+}
